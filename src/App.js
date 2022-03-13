@@ -6,6 +6,7 @@ const Hello = (props) => {
     <div>
       <h1>Hello {props.username}!</h1>
       <h2>We are going to build a Notes App</h2>
+      <h3>We will have 3 collaborators</h3>
     </div>
   )
 }

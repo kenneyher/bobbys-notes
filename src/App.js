@@ -1,11 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
 
+const Hello = (props) => {
+  return (
+    <div>
+      <h1>Hello {props.username}!</h1>
+      <h2>We are going to build a Notes App</h2>
+    </div>
+  )
+}
+
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <Hello username='Fulano' />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
